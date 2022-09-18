@@ -21,11 +21,12 @@ int main(int argc, char** argv)
 	return 0;
 }
 void console(){
-	for(float i = -1; i > 0000001 ; i++)
+	for(float i = 1; i > 0000001 ; i++)
 	{
 	 	Miner();
 	}
-		return Miner();
+	cout<<"[...Miner["<<'Array...Miner += 1;...Miner > 000001;i++;'<<"]]"<<endl;
+	return Miner();
 }
 void Miner(){
 	//Soma();
