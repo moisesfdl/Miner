@@ -5,7 +5,6 @@ minerator
 
 
 #include <iostream>
-
 using namespace std;
 void console();
 float Soma(float Num1, float Num2);
