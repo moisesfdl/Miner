@@ -54,7 +54,7 @@ void Miner(){
 	//Num2 == score;
 	if(btc)
 	{
-		while(btc >= Num1)
+		while(btc >= 1)
 		{
 			btc = btc + 1;
 			btc++;
@@ -63,7 +63,7 @@ void Miner(){
 	}
 	if(score)
 	{
-		while(score >= Num1)
+		while(score >= 1)
 		{
 			score = score + 1;
 			score++;
@@ -72,7 +72,7 @@ void Miner(){
 	}
 	if(ETH)
 	{
-		while(ETH)
+		while(ETH >= 1)
 		{
 			ETH = ETH + 1;
 			ETH++;
