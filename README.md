@@ -5,12 +5,18 @@ minerator
 
 
 #include <iostream>
+#include <tchar.h>
+#define Minerator = Miner;
 using namespace std;
 void console();
 float Soma(float Num1, float Num2);
+void BTC();void Score();
 void Miner();
 int main(int argc, char** argv)
 {
+	typedef char GLOBALHANDLE;
+	GLOBALHANDLE(cripto);
+	_tsetlocale;
 	 int moisesfdl = 'console';int rg = '27.950.938-8';int cpf = '275.551.158-32';
      int cnpj = '35.669.326/0001-90';
      moisesfdl == (rg+(cpf+(cnpj)));
@@ -21,21 +27,31 @@ int main(int argc, char** argv)
 	return 0;
 }
 void console(){
-	for(float i = 1; i > 0000001 ; i++)
-	{
+	//int *ptr1;int *ptr2;
+	//for(float i = 1; i > 0000001 ; i++)
+	//{
 	 	Miner();
-	}
-	cout<<"[...Miner["<<'Array...Miner += 1;...Miner > 000001;i++;'<<"]]"<<endl;
+	//}
+	cout<<"\n[...Miner["<<"\n&BTC ["<<'[btc += 1;...btc > 000001;i++;]'<<"] \n"<<
+	"&SCORE ["<<'score += 1;...score > 10000; i++'<<"]]"<<endl;
+	//cout<<&ptr1<<"\n"<<&ptr2<<"\n";
 	return Miner();
+	
 }
 void Miner(){
-	//Soma();
+	int *ptr1, *ptr2, *ptr3, *ptr4;
 	float Num1, Num2;
-	Num1 == 0;
+	Num1 == 1;
 	float btc;
 	btc == 10;
-	Num2 == btc;
-	int *ptr1;
+	//Num2 == btc;
+	float score;
+	score = 100;
+	float ETH;
+	ETH = 1000;
+	float EXP;
+	EXP = 10000;
+	//Num2 == score;
 	if(btc)
 	{
 		while(btc >= Num1)
@@ -43,10 +59,44 @@ void Miner(){
 			btc = btc + 1;
 			btc++;
 		}
-	cout<<"["<<btc<<(Soma, Num1, Num2)<<"]"<<endl;
+		cout<<&btc<<'aloc-btc:...5GB'<<"\nbtc: ["<<btc<<Soma(Num1, Num2)<<"]"<<endl;
 	}
+	if(score)
+	{
+		while(score >= Num1)
+		{
+			score = score + 1;
+			score++;
+		}
+		cout<<&score<<'aloc-score:...5GB'<<"\nscore: ["<<score<<Soma(Num1, Num2)<<"]"<<endl;
+	}
+	if(ETH)
+	{
+		while(ETH)
+		{
+			ETH = ETH + 1;
+			ETH++;
+		}
+		cout<<EXP<<'aloc-EXP:...5GB'<<"\nETH: ["<<ETH<<Soma(Num1, Num2)<<"]"<<endl;;
+	}
+	if(EXP)
+	{
+		while(EXP >= 1)
+		{
+			EXP = EXP+1;
+			EXP++;
+		}
+		cout<<&EXP<<'aloc...10GB'<<endl;
+		cout<<"EXP: ["<<EXP<<Soma(Num1, Num2)<<"]"<<endl;
+	}
+	*ptr2 = score;
+	cout<<"\n"<<&ptr2;
 	*ptr1 = btc;
-	
+	cout<<"\n"<<&ptr1;
+	*ptr3 = ETH;
+	cout<<"\n"<<&ptr3;
+	*ptr4 = EXP;
+	cout<<"\n"<<&ptr4;
 }
 float Soma(float Num1, float Num2){
 	return Num1+Num2;
