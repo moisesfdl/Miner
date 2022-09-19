@@ -77,7 +77,7 @@ void Miner(){
 			ETH = ETH + 1;
 			ETH++;
 		}
-		cout<<EXP<<'aloc-EXP:...5GB'<<"\nETH: ["<<ETH<<Soma(Num1, Num2)<<"]"<<endl;;
+		cout<<ETH<<'aloc-ETH:...5GB'<<"\nETH: ["<<ETH<<Soma(Num1, Num2)<<"]"<<endl;;
 	}
 	if(EXP)
 	{
@@ -86,8 +86,7 @@ void Miner(){
 			EXP = EXP+1;
 			EXP++;
 		}
-		cout<<&EXP<<'aloc...10GB'<<endl;
-		cout<<"EXP: ["<<EXP<<Soma(Num1, Num2)<<"]"<<endl;
+		cout<<&EXP<<'aloc-EXP:...10GB'<<"\nEXP: ["<<EXP<<Soma(Num1, Num2)<<"]"<<endl;
 	}
 	*ptr2 = score;
 	cout<<"\n"<<&ptr2;
