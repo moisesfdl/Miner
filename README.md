@@ -12,7 +12,7 @@ void console();
 float Soma(float Num1, float Num2);
 void BTC();void Score();
 void Miner();
-int main(int argc, char** argv)
+int main(void)
 {
 	typedef char GLOBALHANDLE;
 	GLOBALHANDLE(cripto);
